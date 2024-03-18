@@ -1,0 +1,141 @@
+html{font-family: sans-serif;}
+
+.reg{
+    background-color: #EDFBFB;
+    width: 375px;
+    min-height: 800px;
+    border-radius: 20px;
+}
+.regtxt{
+    text-align: center;
+    padding-top: 15px;
+}
+.regheader{
+    background-color: #77BCBD;
+    height: 76px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.polya{
+    background-color: #ACDFE0;
+    width: 343px;
+    min-height: 600px;
+    border-radius: 30px;
+    margin-left: 14px;
+    margin-top: 23px;
+    border: solid 1px;
+}
+.pole{
+    background-color: #EDFBFB;
+    border-radius: 20px;
+    width: 295px;
+    height: 52px;
+    margin-left: 24px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.info{
+    padding-top: 15px;
+    padding-left: 17px;
+    font-size: 19px;
+}
+.sogl{
+    height: 23px;
+    width: 23px;
+    margin-left: 11px;
+    margin-top: 15px;
+}
+
+.button{
+    background-color: #ACDFE0;
+    border-radius: 20px;
+    border: solid 1px;
+    width: 249px;
+    height: 49px;
+    font-size: 19px;
+    text-align: center;
+    margin-top: 30px;
+    margin-right: 55px;
+}
+
+
+/* Окно сообщения отображается, когда пользователь нажимает на поле пароля */
+#message{
+    display:none;
+    background: #ACDFE0;
+    color: #000;
+    position: relative;
+    padding: 20px;
+    margin-top: 10px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom: solid 1px;
+    border-left: solid 1px;
+    border-right: solid 1px;
+  }
+  
+  #message p {
+    padding: 10px 35px;
+    font-size: 18px;
+  }
+  
+  /* Добавить зеленый цвет текста и галочка, когда требования верны */
+  .valid {
+    color: green;
+  }
+  
+  .valid:before {
+    position: relative;
+    left: -35px;
+  }
+  
+  /* Добавить красный цвет текста и собой "x" и значок, когда требования не правы */
+  .invalid {
+    color: red;
+  }
+  
+  .invalid:before {
+    position: relative;
+    left: -35px;
+  }
+
+/*для входа*/
+
+.vhod{
+    background-color: #EDFBFB;
+    width: 375px;
+    height: 400px;
+    border-radius: 20px;
+}
+.polya2{
+    background-color: #ACDFE0;
+    width: 343px;
+    height: 180px;
+    border-radius: 30px;
+    margin-left: 14px;
+    margin-top: 23px;
+    border: solid 1px;
+}
+.par{
+    margin-left: 115px;
+    padding-bottom: 35px;
+}
+input{
+    float: right;
+    margin-right: 20px;
+    margin-top: -45px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: #EDFBFB;
+    border: solid 1px #EDFBFB;
+}
+
+
+
+.buttonvhod{
+    height: 30px;
+    width: 50px;
+    border-radius: 10px;
+    background-color: #ACDFE0;
+    border: solid 1px #ACDFE0;
+}
